@@ -9,6 +9,48 @@ body {
 }
 
 
+.logo {
+    color: white;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+a,
+.main-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.mid-two {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+button,
+.mid-three {
+    background-color: #3882F6;
+}
+
 ul {
     list-style-type: none;
 }
