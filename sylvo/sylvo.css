@@ -8,6 +8,10 @@ body {
     flex-direction: column;
 }
 
+.logo-pic{
+    display: flex;
+    margin: 8px;
+}
 
 .logo {
     color: white;
