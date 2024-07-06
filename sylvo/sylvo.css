@@ -8,6 +8,13 @@ body {
     flex-direction: column;
 }
 
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+}
+
 .logo-pic{
     display: flex;
     margin: 8px;
@@ -17,9 +24,27 @@ body {
     color: white;
 }
 
+.top-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.main-two {
+    max-width: 480px;
+}
+
 .header,
 .footer {
     background-color: #1F2937;
+}
+
+.header {
+    padding-top: 18px;
+    padding-bottom: 56px;
+    padding-left: 96px;
+    padding-right: 96px;
 }
 
 .main {
@@ -34,14 +59,35 @@ a,
     color: #E5E7EB;
 }
 
+.main-text {
+    margin-bottom: 16px;
+}
+
 .info {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.mid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.pic {
+    max-width: 180px;
 }
 
 .mid-two {
+    box-sizing: border-box;
     background-color: #E5E7EB;
+    padding: 78px 125px;
 }
 
 .quote {
@@ -50,13 +96,70 @@ a,
     font-style: italic;
 }
 
+.quoter {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 32px;
+}
+
 button,
 .mid-three {
     background-color: #3882F6;
 }
 
+.mid-three {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 56px;
+    align-self: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    max-width: 900px;
+    gap: 132px;
+}
+
+button,
+.call,
+.respond {
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.call {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.botin {
+    align-self: center;
+    margin-left: 16px;
+}
+
+.botin button {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-style: italic;
+}
+
 ul {
+    display: flex;
     list-style-type: none;
+    gap: 16px;
+    align-self: center;
 }
 
 a {
